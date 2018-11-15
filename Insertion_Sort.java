@@ -12,8 +12,7 @@ public class Insertion_Sort {
             for(int i = 0; i<=numbers.length; i++){
             System.out.print(numbers[i]+"\t");
            
-            }
-             
+            } 
         }
         catch(Exception e){   
         }
@@ -26,8 +25,7 @@ public class Insertion_Sort {
              System.out.println("Sorted Array: ");
              printArray(numbers);
         }
-        catch(Exception e){
-        
+        catch(Exception e){        
         }   
     } 
     public static int[] sort(int[] A){
